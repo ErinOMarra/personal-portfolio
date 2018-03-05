@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Erin O'Marra">
+	<title>Portfolio - Erin O'Marra</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<script src="https://use.fontawesome.com/5a92ff03c9.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="js/bootstrap.min.js">
+</head>
+
+<body>
+	<section class="intro">
+		<div class="inner">
+			<div class="content">
+				<section class="name os-animation animated bounceInDown">
+					<h1>Erin O'Marra</h1>
+				</section>
+
+				<section class="nameTitle os-animation animated bounceInDown">
+					<h2>Web Developer</h2>
+				</section>
+
+				<section class="contact os-animation animated bounceInDown">
+					<a class="contactBtn" href="https://github.com/ErinOMarra">
+						<i class="fa fa-github fa-4x" aria-hidden="true" title="GitHub: ErinOMarra"></i>
+					</a>
+
+					<a class="contactBtn" href="mailto:omarra.erin@gmail.com">
+						<i class="fa fa-envelope fa-4x" aria-hidden="true" title="Email: omarra.erin@gmail.com"></i>
+					</a>
+				</section>
+
+				<section class="arrowDown os-animation animated fadeIn">
+					<i id="downArrow" class="fa fa-arrow-circle-down fa-2x" aria-hidden="true"></i>
+				</section>
+			</div>
+		</div>
+	</section>
+
+	<div id="projectWrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h1 class="portfolioTitle">Projects</h1>
+			</div>
+		</div>
+
+		<!-- ShareScape -->
+		<div class="row project"">
+			<div class="col-sm-6 text-lg-right text-center">
+				<img src="img/sharescape.png" class="img-fluid">
+			</div>
+			<div class="col-sm-6 description text-lg-left text-center" >
+				<h1 class="projectTitle">ShareScape</h1>
+				<p>A location-based image-sharing social platform.</p>
+				<p>Users can see and share images based on their proximity on the map.</p>
+				<p>Posts can be upvoted; the one with the most votes goes to the top of the feed.</p>
+				<div class="tags">
+					<button type="button" class="btn btn-secondary disabled">HTML/CSS/JS</button>
+					<button type="button" class="btn btn-secondary disabled">MongoDB</button>
+					<button type="button" class="btn btn-secondary disabled">AngularJS</button>
+					<button type="button" class="btn btn-secondary disabled">Node.js</button>
+				</div>
+
+				<div class="links text-center">
+					<button type="button" class="btn cadetBlue disabled"><a href="https://github.com/peterpasz/ShareScape">View on GitHub</a></button>
+					<button type="button" class="btn cadetBlue disabled"><a href="https://sharescape.herokuapp.com/">View Live Version (Desktop)</a></button>
+					<button type="button" class="btn cadetBlue disabled"><a href="https://sharescape.herokuapp.com/mobile.html">View Live Version (Mobile)</a></button>
+				</div>
+			</div>
+		</div>
+
+		<!-- Adidas Confirmed Simulator-->
+		<div class="row project"">
+			<div class="col-sm-6 text-lg-right text-center">
+				<img src="img/adidasconfirmed.png" class="img-fluid">
+			</div>
+			<div class="col-sm-6 description text-lg-left text-center" >
+				<h1 class="projectTitle">Adidas Confirmed Simulator</h1>
+				<p>A simulator of the "Adidas Confirmed" mobile app, used to reserve limited sneakers.</p>
+				<p>Users are presented with a captcha page randomly generated with nine images, and have to select the correct image based on the prompt.</p>
+				<p>Reservations are on a first come first served basis, so be quick!</p>
+				<div class="tags">
+					<button type="button" class="btn btn-secondary disabled">HTML</button>
+					<button type="button" class="btn btn-secondary disabled">CSS</button>
+					<button type="button" class="btn btn-secondary disabled">JavaScript</button>
+					<button type="button" class="btn btn-secondary disabled">jQuery</button>
+				</div>
+
+				<div class="links text-center">
+					<button type="button" class="btn cadetBlue disabled"><a href="https://github.com/ErinOMarra/adidas-confirmed-simulator">View on GitHub</a></button>
+					<button type="button" class="btn cadetBlue disabled"><a href="http://adiconfirmsimulator.herokuapp.com/">View Live Version</a></button>
+				</div>
+			</div>
+		</div>
+
+		<!-- DaftKraft -->
+		<div class="row project"">
+			<div class="col-sm-6 text-lg-right text-center">
+				<img src="img/daftkraft.png" class="img-fluid">
+			</div>
+			<div class="col-sm-6 description text-lg-left text-center" >
+				<h1 class="projectTitle">DaftKraft</h1>
+				<p>Play the vocals to Daft Punk's "Harder, Better, Faster, Stronger" with your keyboard.</p>
+				<div class="tags">
+					<button type="button" class="btn btn-secondary disabled">HTML</button>
+					<button type="button" class="btn btn-secondary disabled">CSS</button>
+					<button type="button" class="btn btn-secondary disabled">JavaScript</button>
+				</div>
+
+				<div class="links text-center">
+					<button type="button" class="btn cadetBlue disabled"><a href="https://github.com/ErinOMarra/daftkraft">View on GitHub</a></button>
+					<button type="button" class="btn cadetBlue disabled"><a href="http://daftkrafteomarra.herokuapp.com/">View Live Version</a></button>
+				</div>
+			</div>
+		</div>
+
+		<!-- Weather App -->
+		<div class="row project"">
+			<div class="col-sm-6 text-lg-right text-center">
+				<img src="img/weather.png" class="img-fluid">
+			</div>
+			<div class="col-sm-6 description text-lg-left text-center" >
+				<h1 class="projectTitle">Current Weather</h1>
+				<p>A web application that displays the current temperature, weather condition, wind, and humidity for a given city.</p>
+				<div class="tags">
+					<button type="button" class="btn btn-secondary disabled">HTML</button>
+					<button type="button" class="btn btn-secondary disabled">CSS</button>
+					<button type="button" class="btn btn-secondary disabled">JavaScript</button>
+				</div>
+
+				<div class="links text-center">
+					<button type="button" class="btn cadetBlue disabled"><a href="https://github.com/ErinOMarra/current-weather">View on GitHub</a></button>
+					<button type="button" class="btn cadetBlue disabled"><a href="http://currentweathereomarra.herokuapp.com/">View Live Version</a></button>
+				</div>
+			</div>
+		</div>
+
+		<!-- Portfolio Website -->
+		<div class="row project"">
+			<div class="col-sm-6 text-lg-right text-center">
+				<img src="img/portfolio.png" class="img-fluid">
+			</div>
+			<div class="col-sm-6 description text-lg-left text-center" >
+				<h1 class="projectTitle">Portfolio Website</h1>
+				<p>You're looking at it!</p>
+				<div class="tags">
+					<button type="button" class="btn btn-secondary disabled">HTML</button>
+					<button type="button" class="btn btn-secondary disabled">CSS</button>
+					<button type="button" class="btn btn-secondary disabled">JavaScript</button>
+					<button type="button" class="btn btn-secondary disabled">jQuery</button>
+				</div>
+
+				<div class="links text-center">
+					<button type="button" class="btn cadetBlue disabled"><a href="https://github.com/ErinOMarra/personal-portfolio">View on GitHub</a></button>
+					<button type="button" class="btn cadetBlue disabled"><a href="https://www.erinomarra.com">View Live Version</a></button>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
