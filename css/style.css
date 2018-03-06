@@ -172,4 +172,12 @@ button > a:hover{
 	.projectTitle{
 		padding-top: 40px;
 	}
+
+	.name > h1{
+		font-size: 50px;
+	}
+
+	.nameTitle > h2{
+		font-size: 24px;
+	}
 }
